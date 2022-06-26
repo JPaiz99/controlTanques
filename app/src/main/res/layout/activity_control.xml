@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ControlActivity">
+
+    <Button
+        android:id="@+id/control_conect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="336dp"
+        android:fontFamily="serif"
+        android:text="Conectar"
+        android:textSize="25dp"
+        app:cornerRadius="10dp"
+        app:icon="@android:drawable/stat_sys_data_bluetooth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Status"
+        android:layout_width="194dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="112dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/control_conect"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
